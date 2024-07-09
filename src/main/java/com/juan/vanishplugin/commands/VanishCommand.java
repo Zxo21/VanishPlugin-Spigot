@@ -31,7 +31,7 @@ public class VanishCommand implements CommandExecutor {
                 for (Player target : Bukkit.getOnlinePlayers()) {
                     target.hidePlayer(player);
                 }
-                player.sendMessage(ChatColor.GREEN + "You are now unvanished!");
+                player.sendMessage(ChatColor.GREEN + "You are now vanished!");
             }
 
         }
