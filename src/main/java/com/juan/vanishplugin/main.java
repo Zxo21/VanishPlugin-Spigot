@@ -10,8 +10,4 @@ public final class main extends JavaPlugin {
         getCommand("vanish").setExecutor(new VanishCommand());
     }
 
-    @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
 }
