@@ -19,7 +19,7 @@ public class VanishCommand implements CommandExecutor {
     public boolean onCommand(CommandSender src, Command cmd, String s, String[] strings) {
 
         if(src instanceof Player) {
-            Player player = ((Player) src).getPlayer();
+            Player player = (Player) src;
 
             if (vanished.contains(player.getUniqueId())) {
                 vanished.remove(player.getUniqueId());
